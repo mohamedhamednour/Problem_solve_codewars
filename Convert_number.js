@@ -6,6 +6,8 @@ let convert = (num)=>{
      return  convertNum.split("").reverse().map((e)=> Number(e))
 }
 
+// anthor solve
+
 let convertTwo = (num)=>{
     let convertNum =  num.toString()
     newarray = []
