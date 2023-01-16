@@ -19,3 +19,27 @@ let anthorSum = (arr) => {
 
 console.log(sum([1, 23, 5, -5]));
 console.log(anthorSum([5,5,8,-8]));
+
+
+
+// let star = ()=>{
+//   let six = 9
+//   for (let i = 0; i < six - 1; i++) {    
+//     console.log('*'.repeat(i))
+
+//   }
+//   return ''
+// }
+// console.log(star())
+
+
+// const object1 = {
+//   a: 'somestring',
+//   b: 42,
+//   c: false,
+//   d:444.5,
+//   d: true
+// };
+// let arr = Object.values(object1)
+
+// console.log(arr.filter((el) =>  typeof el == "boolean"))
