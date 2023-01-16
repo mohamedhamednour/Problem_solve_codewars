@@ -3,23 +3,21 @@ function invert(array) {
      let  basepostive = []
      let  basengative = []
       for (let i = 0; i < array.length; i++) {
-        if (array[i] > 0){
+       
           basepostive.push(array[i] * -1)
-        }else{
-             basengative.push(Math.abs(array[i]) )
-        }
+        
         
       }
-    return  basengative.concat(basepostive);
+    return  basepostive;
  }
 
 
  console.log(invert([1,2,3,-9,10,-20]))
 
 //  anthor solve
-function invert(array) {
-  return array.map(num =>   {
-    return num * -1
-  })
-}
- console.log(invert([1,2,3,-9,10,-20]))
+// function invert(array) {
+//   return array.map(num =>   {
+//     return num * -1
+//   })
+// }
+//  console.log(invert([1,2,3,-9,10,-20]))
