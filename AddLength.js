@@ -9,14 +9,14 @@ function addLength(str) {
   console.log(addLength('mohamed hamed'))
 
  
-let arrays = {a:'hamed'}
+// let arrays = {a:'hamed'}
 
-let add = [arrays, arrays ,arrays]
-add[1].a = 'mohamedhamed'
-add[0].a = 'vois'
-add[2].a = 'hamed'
+// let add = [arrays, arrays ,arrays]
+// add[1].a = 'mohamedhamed'
+// add[0].a = 'vois'
+// add[2].a = 'hamed'
 
-console.log(add)
+// console.log(add)
 
 
 
