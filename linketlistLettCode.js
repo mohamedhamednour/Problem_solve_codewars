@@ -24,7 +24,7 @@ var mergeTwoLists = function(list1, list2) {
       //p1 has 1 2 3 > //p2 1 3 4
         if (p1.val > p2.val){
             p.next = p2;  //p.next = null- list2 134
-            p2 = p2.next;  //list2  
+            p2 = p2.next;  //list2   //'
         }else{
             p.next = p1;
             p1 = p1.next;
